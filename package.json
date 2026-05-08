@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -b",
     "compile": "tsc",
     "start": "pnpm run compile && node ./dist/index.js"
   },
